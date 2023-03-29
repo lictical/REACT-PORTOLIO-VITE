@@ -1,0 +1,20 @@
+.nav__line1 {
+    transition: var(--transition);
+}
+.nav__line1.active {
+    transform: translate(30%, -5%) rotate(45deg);
+}
+.nav__line2 {
+    transition: var(--transition);
+}
+.nav__line2.active {
+    display: none;
+}
+
+.nav__line3 {
+    transition: var(--transition);
+}
+.nav__line3.active {   
+    transform: translate(-40%, 30%) rotate(-45deg);
+    
+}

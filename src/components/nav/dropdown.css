@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Space+Grotesk&display=swap');
+
+
+.nav__dropdown {
+    position: absolute;
+    left: 0;
+    width: 100%;  
+    background: red;
+    display: grid;
+    grid-template-rows: 0px;
+    transition: var(--transition);
+}
+.nav__dropdown.active {
+    grid-template-rows: 500px;
+    
+}
+.nav__dropdown_content {
+    color: black;   
+    background: brown;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;   
+    overflow: hidden;
+}
+
+h3 {
+    padding: 2rem 0 0.5rem 0!important;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+hr {
+    border:none;
+    border-top: 2px solid black;
+    margin: 0 45%;  
+}
+.droppable__quote {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 3rem;
+    position: absolute!important;
+    left: 0;
+    right: 50%;
+}
+
+/* ================ MEDIA QUERIES(MEDIUM DEVICES)=============*/
+@media screen and (max-width: 1024px) {
+    h3 {
+        padding: 3rem;
+        font-size: 20px;
+    }
+
+    .droppable__quote {
+        font-size: 10px;       
+    }
+  
+}
+/* ================ MEDIA QUERIES(SMALL DEVICES)=============*/
+@media screen and (max-width: 640px) {
+    }
