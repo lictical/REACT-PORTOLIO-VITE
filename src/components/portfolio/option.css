@@ -1,0 +1,44 @@
+.Option {
+    position: relative;
+    display: grid;      
+    grid-template-rows: 1fr;
+    border: 1px solid white;
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+}
+
+.Option__image {
+    height: 150px;
+    overflow: hidden;
+}
+
+.Option__content {
+    position: absolute;
+    align-self: flex-end;
+    height: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    background: brown;
+    color: white;    
+    transition: var(--transition);
+    overflow: hidden;
+    background: rgba(165, 42, 42, 0.3);
+    backdrop-filter: blur(15px);
+    z-index: 2;
+}
+
+
+.Option:hover > .Option__content {  
+    height: 50%;
+ }
+
+ /* ================ MEDIA QUERIES(MEDIUM DEVICES)=============*/
+@media screen and (max-width: 1024px) {
+ 
+}
+/* ================ MEDIA QUERIES(SMALL DEVICES)=============*/
+@media screen and (max-width: 640px) {
+    }

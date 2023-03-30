@@ -12,7 +12,7 @@ const Nav = () => {
     setServiceActive(false);
   }
 
-  const [optionActive, setOptionActive] = useState('');
+  const [optionActive, setOptionActive] = useState('#');
 
   const [isActive, setIsActive]= useState(false);
   const handleClick = ()=>{
@@ -41,7 +41,7 @@ const Nav = () => {
           <Dropdown clase= {serviceActive===true ? 'nav__dropdown active' : 'nav__dropdown'}/>    
         </a>
         <a href="#" onClick={()=> setOptionActive('#')} className={optionActive==='#' ? 'active' : ''}> ABOUT ME</a>
-        <a onClick={() => setOptionActive('PORTFOLIO')} className= {optionActive==='PORTFOLIO' ? 'active' : ''} href="#">PORTFOLIO</a>
+        <a href="#portfolio" onClick={() => setOptionActive('PORTFOLIO')} className= {optionActive==='PORTFOLIO' ? 'active' : ''} >PORTFOLIO</a>
         <a onClick={() => setOptionActive('CONTACT')} className={optionActive==='CONTACT'?'active':''} href="#">CONTACT</a>
         <a onClick={() => setOptionActive('NL')} className={optionActive==='NL'?'active':''} href="#">NL</a>
       

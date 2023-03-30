@@ -24,7 +24,7 @@
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
-    --container-width-sm: 90%;
+    --container-width-sm: 100%;
 }
 
 html {
@@ -61,8 +61,8 @@ h1 {
     font-size: 2.5rem;
 }
 section {
-    margin-top: 5rem;
-    background: red;
+    margin-top: 3rem;
+    
 }
 section > h2, 
 section > h5{
@@ -71,7 +71,7 @@ section > h5{
 }
 section >h2{
     color:var(--color-primary);
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 .text-light{
     color:var(--color-ligth);
@@ -83,14 +83,18 @@ a {
 a:hover {
     color: var(--color-white);
 }
+
+small {
+    font-size: 12px;
+}
 .btn {
     width: max-content;
     display: inline-block;
-    color: var(--color-primary);
+    color: brown;
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid var(--color-primary);
+    border: 1px solid brown;
     transition: var(--transition);
 }
 .btn:hover{
@@ -99,8 +103,8 @@ a:hover {
     border-color: transparent;
 }
 .btn-primary{
-    background: var(--color-primary);
-    color: var(--color-bg);
+    background: rgb(248, 223, 223);
+    color: brown;
 }
 img {
     display: block;
