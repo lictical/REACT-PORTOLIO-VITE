@@ -1,11 +1,16 @@
 #portfolio {
-    margin-bottom: 5rem;
+    padding-bottom: 5rem;
     padding-top:4rem;
     display: flex;
     gap: 1rem;
     background: rgb(170, 85, 85);
     color: white;
 }
+
+.container__portfolio {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    }
 
 .container__portfolio > hr {
     position: relative;
@@ -20,6 +25,7 @@
 }
 
 .container__portfolio > small {
+    display: block;
     text-align: justify;
 
 }
@@ -34,8 +40,14 @@
 
 /* ================ MEDIA QUERIES(MEDIUM DEVICES)=============*/
 @media screen and (max-width: 1024px) {
- 
+.Portfolio__options {
+    display: flex;
+    flex-wrap: wrap;
+}
 }
 /* ================ MEDIA QUERIES(SMALL DEVICES)=============*/
 @media screen and (max-width: 640px) {
-    }
+#portfolio {
+    padding-top:10rem;
+}
+}

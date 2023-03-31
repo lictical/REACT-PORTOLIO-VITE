@@ -41,7 +41,7 @@ const Nav = () => {
           <Dropdown clase= {serviceActive===true ? 'nav__dropdown active' : 'nav__dropdown'}/>    
         </a>
         <a href="#" onClick={()=> setOptionActive('#')} className={optionActive==='#' ? 'active' : ''}> ABOUT ME</a>
-        <a href="#portfolio__container" onClick={() => setOptionActive('PORTFOLIO')} className= {optionActive==='PORTFOLIO' ? 'active' : ''} >PORTFOLIO</a>
+        <a href="#portfolio" onClick={() => setOptionActive('PORTFOLIO')} className= {optionActive==='PORTFOLIO' ? 'active' : ''} >PORTFOLIO</a>
         <a onClick={() => setOptionActive('CONTACT')} className={optionActive==='CONTACT'?'active':''} href="#">CONTACT</a>
         <a onClick={() => setOptionActive('NL')} className={optionActive==='NL'?'active':''} href="#">NL</a>
       

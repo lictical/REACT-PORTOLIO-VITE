@@ -1,0 +1,42 @@
+
+#footer {
+    margin-top:0;
+    background: black;
+    color: white;
+
+}
+.footer__container  {   
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start!important;
+    margin-right: 0;
+    flex: 1;
+    padding-bottom: 2rem;
+    
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+.footer__how_to_page {
+    position: block;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex:0.3;
+    height: 100%;
+
+}
+.footer__about_page {
+    flex: 0.3;
+
+}
+
+.footer__container small  {
+    color: grey;
+}
+
+.footer__social_media {
+    fill: beige;
+    font-size: 30px;
+}
