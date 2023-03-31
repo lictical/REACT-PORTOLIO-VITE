@@ -82,6 +82,7 @@ a {
 }
 a:hover {
     color: var(--color-white);
+    outline: none;
 }
 
 small {

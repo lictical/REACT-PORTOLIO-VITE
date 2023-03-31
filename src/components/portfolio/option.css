@@ -13,6 +13,8 @@
     max-height: 100%;
     overflow: hidden;
     background-color: #fff;
+    will-change: transform;
+    width: 100%;
 }
 
 .Option__content {
