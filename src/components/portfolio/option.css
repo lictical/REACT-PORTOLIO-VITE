@@ -49,6 +49,9 @@
 .Option:hover > .Option__content {  
     height: 0;
  }
+.Option__imgage {
+    max-width: 50%;
+ }
 }
 /* ================ MEDIA QUERIES(SMALL DEVICES)=============*/
 @media screen and (max-width: 640px) {
