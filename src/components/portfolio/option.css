@@ -12,6 +12,7 @@
 .Option__image {
     max-height: 100%;
     overflow: hidden;
+    background-color: #fff;
 }
 
 .Option__content {
