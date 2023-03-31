@@ -42,6 +42,10 @@
 
  /* ================ MEDIA QUERIES(MEDIUM DEVICES)=============*/
 @media screen and (max-width: 1024px) {
+.Option {
+    height: 200px;
+}
+
 .Option__content {
     height: 50%;
 }
@@ -49,8 +53,9 @@
 .Option:hover > .Option__content {  
     height: 0;
  }
-.Option__imgage {
-    max-width: 50%;
+.Option__image {
+    max-width: 100%;
+    
  }
 }
 /* ================ MEDIA QUERIES(SMALL DEVICES)=============*/
