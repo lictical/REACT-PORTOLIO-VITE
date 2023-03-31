@@ -5,10 +5,12 @@
     border: 1px solid white;
     box-shadow: 0 0 5px black;
     cursor: pointer;
+    height: 150px;
+    
 }
 
 .Option__image {
-    height: 150px;
+    height: 100%;
     overflow: hidden;
 }
 
